@@ -13,8 +13,8 @@ Recommendation system for predicting beer ratings from the [BeerAdvocate](https:
 - `baselines/Baseline_Content.ipynb` - content-based baseline using beer metadata/review text.
 - `baselines/Baseline_Collab_SVD.ipynb` - collaborative filtering baseline with SVD.
 - `variant1/Part1_metadata_4_ncf_rmse.ipynb` - metadata-based NCF (GMF, MLP, NeuMF) using beer features
-- `variant1/part2_mlp_model_bpr_ranking.ipynb` - MLP recommender trained with MSE vs BPR, focused on ranking performance
-- `variant1/part3_mlp_model_temporal_attention.ipynb` - MLP with GRU + attention to model user history over time
+- `variant1/part2_mlp_model_bpr_ranking.ipynb` - MLP recommender trained with MSE vs BPR
+- `variant1/part3_mlp_model_temporal_attention.ipynb` - MLP with GRU + attention to model user history
 - `variant2/Ensemble.ipynb` - ensemble-based recommendation variant with DeepFM, LightGBM, and Ridge Regression.
 - `variants3_LLM/LLM.ipynb` - LLM/embedding-enhanced recommendation variant.
 
